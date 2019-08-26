@@ -10,7 +10,12 @@
 
 ### artisan操作
 
+
+
+
 ```
+// 查看laravel版本
+php artisan --version
 // 生成控制类
 php artisan make:controller StudentController
 ```
