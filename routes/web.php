@@ -13,6 +13,11 @@
 
 Route::get('/', function () {
     return view('welcome');
+//    return bcrypt('123456');
+//    return "123456";
 });
+
+Route::get('/student/test1','StudentController@test1');
+Route::get('/student/test2','StudentController@test2');
 
 
