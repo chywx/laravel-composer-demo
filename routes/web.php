@@ -20,4 +20,6 @@ Route::get('/', function () {
 Route::get('/student/test1','StudentController@test1');
 Route::get('/student/test2','StudentController@test2');
 
+Route::get('/student/select1','StudentController@select1');
+
 
