@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Events\InviteUserEvent;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -20,6 +21,12 @@ class StudentController extends Controller
         $select
             = DB::select("select * from student");
         var_dump($select);
+    }
+
+    public function event1(){
+        var_dump("event1");
+        $event = event(new InviteUserEvent(1, "dahai"));
+        var_dump($event);
     }
 
 
