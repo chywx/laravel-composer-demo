@@ -1,5 +1,7 @@
 ## 学习php的框架laravel
-> 下载的laravel包，并未使用composer
+> 构建laravel
+> 
+> composer create-project --prefer-dist laravel/laravel laravel-composer-demo
 >
 > 环境 windows，工具包phpstudy，开发工具PHPstorm
 >
