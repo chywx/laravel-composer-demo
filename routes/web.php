@@ -21,6 +21,7 @@ Route::get('/student/test1','StudentController@test1');
 Route::get('/student/test2','StudentController@test2');
 
 Route::get('/student/select1','StudentController@select1');
+Route::get('/student/insert1','StudentController@insert1');
 
 Route::get('/student/event1','StudentController@event1');
 

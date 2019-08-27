@@ -23,6 +23,11 @@ class StudentController extends Controller
         var_dump($select);
     }
 
+    public function insert1(){
+        $insert = DB::insert('insert into student (username,age) values (?,?)', ['wx', 23]);
+        var_dump($insert);
+    }
+
     public function event1(){
         var_dump("event1");
         $event = event(new InviteUserEvent(1, "dahai"));
